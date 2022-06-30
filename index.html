@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Expenses Calculator</title>
+  </head>
+  <body>
+    <h1>Expenses Calculator</h1>
+    <div class="container">
+      <div class="result-circle">
+        <span id="result">$0.00</span>
+      </div>
+      <form id="form">
+        <label for="rent">Rent:</label>
+        <input type="number" id="rent" name="rent" />
+        <label for="power">NL Power Bill:</label>
+        <input type="number" id="power" name="power" />
+        <label for="internet">Internet Bill:</label>
+        <input type="number" id="internet" name="internet" />
+        <label for="food">Food:</label>
+        <input type="number" id="food" name="food" />
+        <input id="btn" type="button" value="Calculate" name="calculate" />
+      </form>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
