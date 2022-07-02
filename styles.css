@@ -17,7 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(0.25turn, #501c5e, #862e9c, #5e206d, #79298c);
+  background: linear-gradient(90deg, #929292, #adadad);
 }
 
 h1 {
@@ -26,11 +26,10 @@ h1 {
 }
 
 .container {
-  /*   border: 1px solid #000; */
   margin-top: 1rem;
   padding: 2rem;
-  background: linear-gradient(#6b257d, #501c5e, #6b257d, #79298c);
-  box-shadow: 10px 10px 30px #5e206d;
+  background: linear-gradient(90deg, #9454a3, #a169af);
+  box-shadow: 2px 2px 10px #863e98;
   border-radius: 40px;
 }
 
@@ -95,6 +94,7 @@ input[type="number"] {
 #btn {
   height: 3rem;
   font-size: 1.6em;
+  font-weight: 500;
   background-color: #b682c4;
   border: none;
   border-radius: 10px;
@@ -104,10 +104,10 @@ input[type="number"] {
 }
 
 #btn:hover {
-  background-color: #9e58b0;
+  background-color: #a475b0;
 }
 
 #btn:active {
-  box-shadow: 0 1.5px #501c5e;
+  box-shadow: 0 1.5px #7f5b89;
   transform: translateY(1.5px);
 }
