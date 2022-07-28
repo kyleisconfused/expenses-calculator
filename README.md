@@ -10,4 +10,4 @@ Repo includes:
 - A CSS file
 - A JavaScript file
 
-This isn't hosted anywhere aside from this repo, so if you want to check it out, you'll have to download the files and open the index.html file in your browser of choice.
+Live demo [here!](https://kyleisconfused.github.io/expenses-calculator/)
