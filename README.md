@@ -9,3 +9,5 @@ Repo includes:
 - An HTML file
 - A CSS file
 - A JavaScript file
+
+Live demo [here!](https://kylelangille.github.io/expenses-calculator/)
